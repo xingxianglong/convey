@@ -1,0 +1,21 @@
+#xxl 2021-01-27 开发版本升级至V0.0.2
+/log/V0.0.2/file_list_V0.0.2.txt
+
+#xxl 2021-01-27 [接口-房源]详情API 增加返回字段，增加用户token处理
+#xxl 2021-01-27 [接口-用户-收藏]收藏API 返回提示修改
+/app/Http/Controllers/Api/House/HouseController.php
+/app/Http/Controllers/Api/User/CollectController.php
+/app/Http/Middleware/CheckApiToken.php
+
+#xxl 2021-01-27 [配置]修改时区
+#xxl 2021-01-27 [接口-用户-收藏]分页列表API
+#xxl 2021-01-27 [接口-用户-预约]新增预约API
+/app/Http/Controllers/Api/House/HouseController.php
+/app/Http/Controllers/Api/User/CollectController.php
+/app/Http/Middleware/CheckApiToken.php
+/app/Rules/Api/User/Collect.php
+/config/app.php
+/routes/api.php
+/routes/web.php
+/app/Http/Controllers/Api/User/ReservationController.php
+/app/Rules/Api/User/Reservation.php

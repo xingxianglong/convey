@@ -1,0 +1,402 @@
+#xxl 2021-01-22 开发版本升级至V0.0.1
+/log/V0.0.1/file_list_V0.0.1.txt
+
+#xxl 2021-01-22 [后台管理]框架搭建
+#xxl 2021-01-22 [后台管理-管理员]角色管理、管理员
+/.env
+/app/Http/Controllers/Admin/System/AdministratorController.php
+/app/Http/Controllers/Admin/UploadController.php
+/app/Rules/Admin/System/AdministratorRole.php
+/config/filesystems.php
+/resources/views/Admin/Index/Index.blade.php
+/resources/views/Admin/System/Administrator/FormAccount.blade.php
+/resources/views/Admin/System/Administrator/Index.blade.php
+/routes/web.php
+
+#xxl 2021-01-22 [后台管理-系统]系统配置管理
+/app/Http/Controllers/Admin/IndexController.php
+/app/Http/Controllers/Admin/LoginController.php
+/app/Http/Controllers/Admin/System/AdministratorController.php
+/app/Http/Controllers/Admin/System/AdministratorRoleController.php
+/app/Rules/Admin/System/AdministratorRole.php
+/resources/views/Admin/System/Administrator/Index.blade.php
+/resources/views/Admin/System/AdministratorRole/Index.blade.php
+/resources/views/Admin/System/Config/index.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/System/ConfigController.php
+/app/Rules/Admin/System/Administrator.php
+/app/Rules/Admin/System/Config.php
+/resources/views/Admin/System/Config/Form.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]分类管理
+/app/Http/Controllers/Admin/System/MenuController.php
+/resources/views/Admin/System/Administrator/Form.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/House
+/app/Http/Controllers/Admin/House/ClassifyController.php
+/app/Rules/Admin/House
+/app/Rules/Admin/House/Classify.php
+/resources/views/Admin/House
+/resources/views/Admin/House/Classify
+/resources/views/Admin/House/Classify/Form.blade.php
+/resources/views/Admin/House/Classify/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]朝向管理
+/app/Http/Controllers/Admin/House/ClassifyController.php
+/app/Rules/Admin/House/Classify.php
+/resources/views/Admin/House/Classify/Form.blade.php
+/resources/views/Admin/House/Classify/Index.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/House/DirectionController.php
+/app/Rules/Admin/House/Direction.php
+/resources/views/Admin/House/Direction
+/resources/views/Admin/House/Direction/Form.blade.php
+/resources/views/Admin/House/Direction/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]装修管理
+/routes/web.php
+/app/Http/Controllers/Admin/House/DecorateController.php
+/app/Rules/Admin/House/Decorate.php
+/resources/views/Admin/House/Decorate
+/resources/views/Admin/House/Decorate/Form.blade.php
+/resources/views/Admin/House/Decorate/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]标签管理
+/routes/web.php
+/app/Http/Controllers/Admin/House/LabelController.php
+/app/Rules/Admin/House/Label.php
+/resources/views/Admin/House/Label
+/resources/views/Admin/House/Label/Form.blade.php
+/resources/views/Admin/House/Label/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]配置管理
+/routes/web.php
+/app/Http/Controllers/Admin/House/ConfigurationController.php
+/app/Rules/Admin/House/Configuration.php
+/resources/views/Admin/House/Configuration
+/resources/views/Admin/House/Configuration/Form.blade.php
+/resources/views/Admin/House/Configuration/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]付款方式管理
+/routes/web.php
+/app/Http/Controllers/Admin/House/PaymentWayController.php
+/app/Rules/Admin/House/PaymentWay.php
+/resources/views/Admin/House/PaymentWay
+/resources/views/Admin/House/PaymentWay/Form.blade.php
+/resources/views/Admin/House/PaymentWay/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]租金管理
+/routes/web.php
+/app/Http/Controllers/Admin/House/RentController.php
+/app/Rules/Admin/House/Rent.php
+/resources/views/Admin/House/Rent
+/resources/views/Admin/House/Rent/Form.blade.php
+/resources/views/Admin/House/Rent/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]建筑类型管理
+/routes/web.php
+/app/Http/Controllers/Admin/House/BuildingTypeController.php
+/app/Rules/Admin/House/BuildingType.php
+/resources/views/Admin/House/BuildingType
+/resources/views/Admin/House/BuildingType/Form.blade.php
+/resources/views/Admin/House/BuildingType/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-房源]小区管理
+/app/Http/Controllers/Admin/House/BuildingTypeController.php
+/app/Http/Controllers/Admin/House/ClassifyController.php
+/app/Http/Controllers/Admin/House/ConfigurationController.php
+/app/Http/Controllers/Admin/House/DecorateController.php
+/app/Http/Controllers/Admin/House/DirectionController.php
+/app/Http/Controllers/Admin/House/LabelController.php
+/app/Http/Controllers/Admin/House/PaymentWayController.php
+/resources/views/Admin/House/BuildingType/Form.blade.php
+/resources/views/Admin/House/Classify/Form.blade.php
+/resources/views/Admin/House/Configuration/Form.blade.php
+/resources/views/Admin/House/Decorate/Form.blade.php
+/resources/views/Admin/House/Direction/Form.blade.php
+/resources/views/Admin/House/Label/Form.blade.php
+/resources/views/Admin/House/PaymentWay/Form.blade.php
+/resources/views/Admin/House/Rent/Form.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/House/CommunityController.php
+/app/Rules/Admin/House/Community.php
+/resources/views/Admin/House/Community
+/resources/views/Admin/House/Community/Form.blade.php
+/resources/views/Admin/House/Community/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-门店]门店管理
+/app/Http/Controllers/Admin/UploadController.php
+/resources/views/Admin/House/Community/Index.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/Store
+/app/Http/Controllers/Admin/Store/StoreController.php
+/app/Rules/Admin/Store
+/app/Rules/Admin/Store/Store.php
+/resources/views/Admin/Store
+/resources/views/Admin/Store/Store
+/resources/views/Admin/Store/Store/Form.blade.php
+/resources/views/Admin/Store/Store/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-门店]职位管理
+/routes/web.php
+/app/Http/Controllers/Admin/Store/ConsultantPositionController.php
+/app/Rules/Admin/Store/ConsultantPosition.php
+/resources/views/Admin/Store/ConsultantPosition
+/resources/views/Admin/Store/ConsultantPosition/Form.blade.php
+/resources/views/Admin/Store/ConsultantPosition/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-门店]门店管理增加省市区详细地址完善经纬度
+/app/Http/Controllers/Admin/Store/StoreController.php
+/app/Http/Controllers/Common/AppController.php
+/app/Http/Controllers/Common/CommonController.php
+/app/Rules/Admin/Store/Store.php
+/resources/views/Admin/House/Classify/Form.blade.php
+/resources/views/Admin/House/Configuration/Form.blade.php
+/resources/views/Admin/Store/Store/Form.blade.php
+/resources/views/Admin/Store/Store/Index.blade.php
+/resources/views/Admin/System/Administrator/Form.blade.php
+/resources/views/Admin/System/Config/Form.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/System/CityController.php
+/app/Http/Controllers/Admin/System/DistrictController.php
+/app/Http/Controllers/Admin/System/ProvinceController.php
+
+#xxl 2021-01-23 [后台管理-房源]小区管理增加省市区详细地址完善经纬度
+/app/Http/Controllers/Admin/House/CommunityController.php
+/app/Rules/Admin/House/Community.php
+/resources/views/Admin/House/Community/Form.blade.php
+/resources/views/Admin/House/Community/Index.blade.php
+
+#xxl 2021-01-23 [后台管理-门店]顾问管理
+/app/Http/Controllers/Admin/Store/StoreController.php
+/routes/web.php
+/app/Http/Controllers/Admin/Store/ConsultantController.php
+/app/Rules/Admin/Store/Consultant.php
+/resources/views/Admin/Store/Consultant
+/resources/views/Admin/Store/Consultant/Form.blade.php
+/resources/views/Admin/Store/Consultant/Index.blade.php
+/resources/views/Admin/Store/Store/Select.blade.php
+
+#xxl 2021-01-25 [后台管理-房源]房源管理
+/app/Http/Controllers/Admin/House/ClassifyController.php
+/app/Http/Controllers/Admin/House/CommunityController.php
+/app/Http/Controllers/Admin/House/ConfigurationController.php
+/app/Http/Controllers/Admin/House/DecorateController.php
+/app/Http/Controllers/Admin/House/DirectionController.php
+/app/Http/Controllers/Admin/House/LabelController.php
+/app/Http/Controllers/Admin/House/PaymentWayController.php
+/app/Http/Controllers/Admin/Store/ConsultantController.php
+/app/Http/Controllers/Common/System/ConfigController.php
+/app/Rules/Admin/House/Rent.php
+/resources/views/Admin/Store/Store/Select.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/House/BannerController.php
+/app/Http/Controllers/Admin/House/ConfigurationMappingController.php
+/app/Http/Controllers/Admin/House/HouseController.php
+/app/Http/Controllers/Admin/House/LabelMappingController.php
+/app/Http/Controllers/Common/House
+/app/Http/Controllers/Common/House/HouseController.php
+/app/Rules/Admin/House/House.php
+/resources/views/Admin/House/Community/Select.blade.php
+/resources/views/Admin/House/House
+/resources/views/Admin/House/House/Form.blade.php
+/resources/views/Admin/House/House/Index.blade.php
+/resources/views/Admin/Store/Consultant/Select.blade.php
+
+#xxl 2021-01-25 [后台管理-广告]轮播图管理
+#xxl 2021-01-25 [后台管理]列表样式优化
+/resources/views/Admin/House/BuildingType/Index.blade.php
+/resources/views/Admin/House/Classify/Index.blade.php
+/resources/views/Admin/House/Community/Index.blade.php
+/resources/views/Admin/House/Configuration/Index.blade.php
+/resources/views/Admin/House/Decorate/Index.blade.php
+/resources/views/Admin/House/Direction/Index.blade.php
+/resources/views/Admin/House/House/Index.blade.php
+/resources/views/Admin/House/Label/Index.blade.php
+/resources/views/Admin/House/PaymentWay/Index.blade.php
+/resources/views/Admin/House/Rent/Index.blade.php
+/resources/views/Admin/Store/Consultant/Index.blade.php
+/resources/views/Admin/Store/ConsultantPosition/Index.blade.php
+/resources/views/Admin/Store/Store/Index.blade.php
+/resources/views/Admin/System/Administrator/Index.blade.php
+/resources/views/Admin/System/AdministratorRole/Index.blade.php
+/resources/views/Admin/System/Config/index.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/Advertising
+/app/Http/Controllers/Admin/Advertising/BannerController.php
+/app/Http/Controllers/Admin/Advertising/BannerLocationController.php
+/app/Rules/Admin/Advertising
+/app/Rules/Admin/Advertising/Banner.php
+/resources/views/Admin/Advertising
+/resources/views/Admin/Advertising/Banner
+/resources/views/Admin/Advertising/Banner/Form.blade.php
+/resources/views/Admin/Advertising/Banner/Index.blade.php
+
+#xxl 2021-01-25 [后台管理-意见反馈]问题反馈管理
+/resources/views/Admin/Advertising/Banner/Index.blade.php
+/resources/views/Admin/House/BuildingType/Index.blade.php
+/resources/views/Admin/House/Classify/Index.blade.php
+/resources/views/Admin/House/Community/Index.blade.php
+/resources/views/Admin/House/Configuration/Index.blade.php
+/resources/views/Admin/House/Decorate/Index.blade.php
+/resources/views/Admin/House/Direction/Index.blade.php
+/resources/views/Admin/House/Label/Index.blade.php
+/resources/views/Admin/House/PaymentWay/Index.blade.php
+/resources/views/Admin/House/Rent/Index.blade.php
+/resources/views/Admin/Store/ConsultantPosition/Index.blade.php
+/resources/views/Admin/Store/Store/Index.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/Advice
+/app/Http/Controllers/Admin/Advice/AdviceController.php
+/resources/views/Admin/Advice
+/resources/views/Admin/Advice/Advice
+/resources/views/Admin/Advice/Advice/Detail.blade.php
+/resources/views/Admin/Advice/Advice/Index.blade.php
+
+#xxl 2021-01-25 [后台管理-用户]用户管理
+/app/Http/Controllers/Admin/Advice/AdviceController.php
+/resources/views/Admin/Advice/Advice/Index.blade.php
+/routes/web.php
+/app/Http/Controllers/Admin/User
+/app/Http/Controllers/Admin/User/UserController.php
+/resources/views/Admin/User
+/resources/views/Admin/User/User
+/resources/views/Admin/User/User/Detail.blade.php
+/resources/views/Admin/User/User/Index.blade.php
+
+#xxl 2021-01-26 [用户验证]完善后台、API用户token验证
+#xxl 2021-01-26 [API]搭建API架构
+/app/Http/Controllers/Admin/BaseController.php
+/app/Http/Controllers/Common/AppController.php
+/app/Http/Middleware/CheckAdminToken.php
+/app/Http/Middleware/CheckApiToken.php
+/routes/api.php
+/app/Http/Controllers/Api/BaseController.php
+/app/Http/Controllers/Api/User
+/app/Http/Controllers/Api/User/UserController.php
+/app/Rules/Api
+/app/Rules/Api/User
+/app/Rules/Api/User/User.php
+
+#xxl 2021-01-26 [后台管理-门店]顾问管理 增加用户绑定
+/app/Http/Controllers/Admin/Store/ConsultantController.php
+/app/Http/Controllers/Admin/User/UserController.php
+/app/Rules/Admin/Store/Consultant.php
+/resources/views/Admin/Store/Consultant/Form.blade.php
+/resources/views/Admin/Store/Consultant/Index.blade.php
+/routes/web.php
+/resources/views/Admin/User/User/Select.blade.php
+
+#xxl 2021-01-26 [后台管理-门店]顾问管理 完善新增修改
+/app/Http/Controllers/Admin/Store/ConsultantController.php
+
+#xxl 2021-01-26 [接口-广告]列表数据API
+/app/Http/Controllers/Api/BaseController.php
+/app/Http/Controllers/Api/User/UserController.php
+/app/Http/Middleware/CheckApiToken.php
+/routes/api.php
+/app/Http/Controllers/Api/Advertising
+/app/Http/Controllers/Api/Advertising/BannerController.php
+/app/Rules/Api/Advertising
+/app/Rules/Api/Advertising/Banner.php
+
+#xxl 2021-01-26 [接口-房源-分类]列表数据API
+/app/Http/Controllers/Api/Advertising/BannerController.php
+/routes/api.php
+/app/Http/Controllers/Api/House
+/app/Http/Controllers/Api/House/ClassifyController.php
+
+#xxl 2021-01-26 [后台管理-房源]房源管理完善字段
+/app/Http/Controllers/Admin/House/HouseController.php
+/app/Rules/Admin/House/House.php
+/resources/views/Admin/House/House/Form.blade.php
+/resources/views/Admin/House/House/Index.blade.php
+
+#xxl 2021-01-26 [接口-房源-朝向]列表数据API
+#xxl 2021-01-26 [接口-房源-装修]列表数据API
+#xxl 2021-01-26 [接口-房源-标签]列表数据API
+#xxl 2021-01-26 [接口-房源-配置]列表数据API
+#xxl 2021-01-26 [接口-房源-付款方式]列表数据API
+#xxl 2021-01-26 [接口-房源-建筑类型]列表数据API
+/resources/views/Admin/House/House/Index.blade.php
+/routes/api.php
+/app/Http/Controllers/Api/House/BuildingTypeController.php
+/app/Http/Controllers/Api/House/ConfigurationController.php
+/app/Http/Controllers/Api/House/DecorateController.php
+/app/Http/Controllers/Api/House/DirectionController.php
+/app/Http/Controllers/Api/House/LabelController.php
+/app/Http/Controllers/Api/House/PaymentWayController.php
+/app/Http/Controllers/Api/House/RentController.php
+
+#xxl 2021-01-26 [后台管理-房源]品牌公寓管理
+#xxl 2021-01-26 [后台管理-房源]房源管理 完善字段
+#xxl 2021-01-26 [接口-房源-品牌公寓]列表数据API
+#xxl 2021-01-26 [接口-房源]分页列表API
+/app/Http/Controllers/Admin/House/HouseController.php
+/app/Rules/Admin/House/House.php
+/resources/views/Admin/House/House/Form.blade.php
+/resources/views/Admin/House/House/Index.blade.php
+/routes/api.php
+/routes/web.php
+/app/Http/Controllers/Admin/House/BrandApartmentController.php
+/app/Http/Controllers/Api/House/BrandApartmentController.php
+/app/Http/Controllers/Api/House/HouseController.php
+/app/Http/Controllers/Api/House/LabelMappingController.php
+/app/Rules/Admin/House/BrandApartment.php
+/app/Rules/Api/House
+/app/Rules/Api/House/House.php
+/resources/views/Admin/House/BrandApartment
+/resources/views/Admin/House/BrandApartment/Form.blade.php
+/resources/views/Admin/House/BrandApartment/Index.blade.php
+
+#xxl 2021-01-27 [后台管理-房源]增加成交房源，房源管理增加参数验证
+#xxl 2021-01-27 [接口-房源]增加详情API
+/app/Http/Controllers/Admin/House/HouseController.php
+/app/Http/Controllers/Api/House/HouseController.php
+/app/Http/Controllers/Api/House/LabelMappingController.php
+/app/Rules/Admin/House/House.php
+/app/Rules/Api/House/House.php
+/resources/views/Admin/House/House/Form.blade.php
+/resources/views/Admin/House/House/Index.blade.php
+/routes/api.php
+/routes/web.php
+/app/Http/Controllers/Api/House/ConfigurationMappingController.php
+
+#xxl 2021-01-27 [接口-房源-小区]详情API
+/routes/api.php
+/app/Http/Controllers/Api/House/CommunityController.php
+/app/Rules/Api/House/Community.php
+
+#xxl 2021-01-27 [接口-门店-顾问]详情API
+/routes/api.php
+/app/Http/Controllers/Api/Store
+/app/Http/Controllers/Api/Store/ConsultantController.php
+/app/Rules/Api/Store
+/app/Rules/Api/Store/Consultant.php
+
+#xxl 2021-01-27 [接口-门店-顾问]详情API 完善字段
+#xxl 2021-01-27 [后台管理-房源-成交房源]增加字段
+/app/Http/Controllers/Admin/House/HouseController.php
+/app/Http/Controllers/Api/House/HouseController.php
+/app/Http/Controllers/Api/Store/ConsultantController.php
+/app/Rules/Admin/House/House.php
+/resources/views/Admin/House/House/Form.blade.php
+
+#xxl 2021-01-27 [接口-门店-顾问]在租房源API
+/app/Http/Controllers/Api/Store/ConsultantController.php
+/app/Rules/Api/Store/Consultant.php
+/routes/api.php
+
+#xxl 2021-01-27 [接口-门店]详情API
+#xxl 2021-01-27 [接口-门店]在租房源API
+#xxl 2021-01-27 [接口-门店]合作伙伴API
+#xxl 2021-01-27 [接口-门店]成交动态API
+/app/Http/Controllers/Api/House/HouseController.php
+/routes/api.php
+/app/Http/Controllers/Api/Store/StoreController.php
+/app/Rules/Api/Store/Store.php
+
+#xxl 2021-01-27 [接口-用户-收藏]收藏API
+/routes/api.php
+/app/Http/Controllers/Api/User/CollectController.php
+/app/Rules/Api/User/Collect.php

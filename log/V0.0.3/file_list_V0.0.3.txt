@@ -1,0 +1,54 @@
+#xxl 2021-01-28 开发版本升级至V0.0.3
+/log/V0.0.3/file_list_V0.0.3.txt
+
+#xxl 2021-01-28 [接口-用户-预约]分页列表API
+#xxl 2021-01-28 [接口-用户-咨询]新增API
+#xxl 2021-01-28 [接口-用户-咨询]分页列表API
+/app/Http/Controllers/Api/User/ReservationController.php
+/routes/api.php
+/app/Http/Controllers/Api/User/ConsultController.php
+/app/Rules/Api/User/Consult.php
+
+#xxl 2021-01-28 [后台管理-意见反馈-问题反馈]详情页增加判断
+#xxl 2021-01-28 [接口-问题反馈]新增API
+/resources/views/Admin/Advice/Advice/Detail.blade.php
+/routes/api.php
+/app/Http/Controllers/Api/Advice
+/app/Http/Controllers/Api/Advice/AdviceController.php
+/app/Rules/Api/Advice
+/app/Rules/Api/Advice/Advice.php
+
+#xxl 2021-01-28 [后台管理-预约]预约看房管理
+/routes/web.php
+/app/Http/Controllers/Admin/User/ReservationController.php
+/resources/views/Admin/User/Reservation
+/resources/views/Admin/User/Reservation/Detail.blade.php
+/resources/views/Admin/User/Reservation/Index.blade.php
+
+#xxl 2021-01-28 [接口-用户-授权]小程序授权API
+/app/Http/Controllers/Api/User/UserController.php
+/app/Rules/Api/User/User.php
+/routes/api.php
+/app/Http/Controllers/Common/User
+/app/Http/Controllers/Common/User/UserController.php
+
+#xxl 2021-01-28 [后台管理-门店-顾问管理]修复列表图片点击事件
+#xxl 2021-01-28 [接口-用户]详情API
+/app/Http/Controllers/Api/User/UserController.php
+/resources/views/Admin/Store/Consultant/Index.blade.php
+/routes/api.php
+
+#xxl 2021-01-28 [接口-房源]发布API
+/app/Http/Controllers/Api/House/ConfigurationMappingController.php
+/app/Http/Controllers/Api/House/HouseController.php
+/app/Http/Controllers/Api/House/LabelMappingController.php
+/app/Http/Controllers/Api/User/ReservationController.php
+/app/Http/Controllers/Api/User/UserController.php
+/app/Rules/Api/House/House.php
+/app/Rules/Api/User/Reservation.php
+/routes/api.php
+/app/Http/Controllers/Api/House/BannerController.php
+
+#xxl 2021-01-28 [接口-房源-小区]列表API
+/app/Http/Controllers/Api/House/CommunityController.php
+/routes/api.php
